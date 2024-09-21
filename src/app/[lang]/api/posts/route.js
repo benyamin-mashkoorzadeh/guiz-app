@@ -1,4 +1,4 @@
-export async function GET() {
+export async function generateStaticParams() {
     const res = await fetch('https://dummyjson.com/posts', {
         method: 'GET',
         headers: {
