@@ -1,4 +1,4 @@
-export function GET(request) {
+export function generateStaticParams(request) {
     const searchParams = request.nextUrl.searchParams
     const query = searchParams.get("name")
 
