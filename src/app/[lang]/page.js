@@ -2,8 +2,15 @@ import Link from "next/link";
 import {getLangs} from "@/src/app/[lang]/langs";
 import LocaleSwitcher from "@/src/components/localeSwitcher";
 
+export async function generateStaticParams() {
+    const langs = ['en-us', 'fa', 'en', 'fa-ir']
+
+    console.log(langs)
+
+    return langs.map((lang) => (lang))
+}
 export default async function Home({params}) {
-    const dict = await getLangs(params.lang)
+    const dict = getLangs(params.lang)
     return (
         <main className="container mx-auto">
             <div className="text-center">
