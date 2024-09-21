@@ -2,14 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import {getLangs} from "@/src/app/[lang]/langs";
 
-export async function generateStaticParams() {
-    const langs = ['en-us', 'fa', 'en', 'fa-ir']
-
-    console.log(langs)
-
-    return langs.map((lang) => (lang))
-}
-
 export default async function About({params}) {
     const dict = await getLangs(params.lang)
 
