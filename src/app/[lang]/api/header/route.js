@@ -1,6 +1,6 @@
 import {headers} from "next/headers";
 
-export async function GET(request) {
+export async function generateStaticParams(request) {
     const useHeader = headers(request)
     const header = useHeader.get('Content-Type')
 
