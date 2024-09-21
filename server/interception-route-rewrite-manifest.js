@@ -1,0 +1,1 @@
+self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST='[{"source":"/:lang/about/photo","destination":"/__NEXT_EMPTY_PARAM__/about/(.)photo","has":[{"type":"header","key":"Next-Url","value":"(?:\\\\/([^\\\\/#\\\\?]+?))\\\\/about(?:\\\\/(.*))?[\\\\/#\\\\?]?"}]}]';

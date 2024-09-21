@@ -1,0 +1,15 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/[lang]/api/cookie/route": "app/[lang]/api/cookie/route.js",
+  "/[lang]/api/header/route": "app/[lang]/api/header/route.js",
+  "/[lang]/api/posts/route": "app/[lang]/api/posts/route.js",
+  "/[lang]/api/query/route": "app/[lang]/api/query/route.js",
+  "/[lang]/under-construction/page": "app/[lang]/under-construction/page.js",
+  "/[lang]/api/redirect/route": "app/[lang]/api/redirect/route.js",
+  "/[lang]/page": "app/[lang]/page.js",
+  "/[lang]/quiz/page": "app/[lang]/quiz/page.js",
+  "/[lang]/about/photo/page": "app/[lang]/about/photo/page.js",
+  "/[lang]/about/page": "app/[lang]/about/page.js",
+  "/[lang]/about/@modal/(.)photo/page": "app/[lang]/about/@modal/(.)photo/page.js"
+}
