@@ -8,7 +8,6 @@ const nextConfig = {
             }
         ]
     },
-    output: "export",
     basePath: '/quiz-app',
     distDir: 'build'
 };
