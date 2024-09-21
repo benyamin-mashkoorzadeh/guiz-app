@@ -1,6 +1,6 @@
 import {cookies} from "next/headers";
 
-export async function GET() {
+export async function generateStaticParams() {
     const cookieStore = cookies()
     const token = cookieStore.get("token")
 
