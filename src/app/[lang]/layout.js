@@ -25,7 +25,7 @@ export default function RootLayout({children, params}) {
         <html lang={params.lang}
               dir={params.lang === 'en-us' ? 'ltr' : 'rtl'} className={vazir.className}>
         <body>
-        <CookiesProvider basename='quiz-app'>
+        <CookiesProvider>
         {children}
         </CookiesProvider>
         </body>
